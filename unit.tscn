@@ -1,6 +1,8 @@
-[gd_scene load_steps=2 format=3 uid="uid://c2y6rnknaixaw"]
+[gd_scene load_steps=3 format=3 uid="uid://c2y6rnknaixaw"]
 
 [ext_resource type="Script" uid="uid://cj56s76qah472" path="res://unit.gd" id="1_btf8p"]
+[ext_resource type="Texture2D" uid="uid://dhjm8o0kd3qnf" path="res://icon.svg" id="1_ctwoc"]
 
 [node name="Unit" type="Sprite2D"]
+texture = ExtResource("1_ctwoc")
 script = ExtResource("1_btf8p")
