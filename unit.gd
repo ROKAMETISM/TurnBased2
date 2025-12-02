@@ -14,6 +14,7 @@ func _ready() -> void:
 func _on_turn_started()->void:
 	material.set_shader_parameter("enable", true)
 	pass
+
 func _on_turn_ended()->void:
 	material.set_shader_parameter("enable", false)
 	pass
